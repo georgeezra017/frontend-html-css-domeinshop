@@ -72,8 +72,9 @@ body {
     color: #1C2B32;
     width: 250px;
     height: 46px;
-    border-color: #1C2B32;
-    border-bottom-color: #1C2B32;
+    border: 2px solid black;
+    /*border-color: black;*/
+    border-bottom-color: black;
 }
 
 .pil-right {
@@ -170,6 +171,7 @@ details, button:hover{
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
+    gap: 20px;
 }
 
 .image-container {
@@ -179,6 +181,8 @@ details, button:hover{
     width: 44px;
     height: 44px;
     border-radius: 50%;
+
+
 }
 /*////////////////////////
     2. Typography
